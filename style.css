@@ -1,0 +1,30 @@
+h1{
+    background-color:red;
+}
+.bodyImg{
+    position: relative;
+}
+.bodyImg p{
+    position:absolute;
+    color: cyan;
+    transform: translate(-50%,-50%);
+    top: 20%;
+    left: 50%;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px;
+    justify-content: space-between;
+}
+
+.grid Img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.origami{
+    border: radius 20px;
+    background-color: blanchedalmond;
+    
+}
